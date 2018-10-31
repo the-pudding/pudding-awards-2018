@@ -1,14 +1,14 @@
 {
-  "title": "Title Case Headline Goes Here",
-  "description": "Your dek goes here. It is probably one or two sentences that succinctly describe more explicitly what the story will be about.",
-  "url": "https://pudding.cool/year/month/name/",
-  "keywords": "tk",
-  "imgFacebook": "https://pudding.cool/year/month/name/assets/social/social-facebook.jpg",
-  "imgTwitter": "https://pudding.cool/year/month/name/assets/social/social-twitter.jpg",
+  "title": "The Pudding Awards 2018",
+  "description": "Pudding Awards 2018",
+  "url": "https://pudding.cool/pudding-awards-2018/",
+  "keywords": "pudding, data vis, award",
+  "imgFacebook": "https://pudding.cool/pudding-awards-2018/assets/social/social-facebook.jpg",
+  "imgTwitter": "https://pudding.cool/pudding-awards-2018/assets/social/social-twitter.jpg",
   "author": {
-    "name": "Author Name",
-    "url": "https://twitter.com/puddingviz",
-    "twitterHandle": "@puddingviz"
+    "name": "Russell Goldenberg",
+    "url": "https://twitter.com/codenberg",
+    "twitterHandle": "@codenberg"
   },
-  "analytics": ""
+  "analytics": "UA-90567923-1"
 }
