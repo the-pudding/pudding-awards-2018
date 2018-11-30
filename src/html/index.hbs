@@ -34,7 +34,42 @@
 			{{/each}}
 		</div>
 
-		<div class='prose details'>
+		<section id='winners'>
+			<div class='hed'>
+				<h2>{{copy.hed1}}</h2>
+				<p>{{copy.dek1}}</p>
+			</div>
+			
+			
+			<ul>
+				{{#each copy.passion}}
+				<li>
+					<h3><a href='{{url}}' target='_blank'>{{title}}</a></h3>
+					<p class='credit'>By: {{name}}</p>
+					<a href='{{url}}' target='_blank'><img src='assets/img/{{img}}.jpg'></a>
+				</li>
+				{{/each}}
+			</ul>
+
+			<div class='hed'>
+				<h2>{{copy.hed2}}</h2>
+				<p>{{copy.dek2}}</p>
+			</div>
+		
+
+			<ul>
+				{{#each copy.pay}}
+				<li>
+					<h3><a href='{{url}}' target='_blank'>{{title}}</a></h3>
+					<p class='credit'>By: {{name}}</p>
+					<a href='{{url}}' target='_blank'><img src='assets/img/{{img}}.jpg'></a>
+				</li>
+				{{/each}}
+			</ul>
+		</section>
+		
+		
+		{{!-- <div class='prose details'>
 			<ul>
 				{{#each copy.details}}
 				<li>{{{value}}}</li>
@@ -44,7 +79,7 @@
 
 		<p class='submit'>
 			<a href='{{copy.submit}}' target='_blank'>Enter Now!</a>
-		</p>
+		</p> --}}
 
 		
 
