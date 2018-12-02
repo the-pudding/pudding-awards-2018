@@ -47,10 +47,21 @@
 					<h3><a href='{{url}}' target='_blank'>{{title}}</a></h3>
 					<p class='credit'>Credit: {{name}}</p>
 					<a href='{{url}}' target='_blank'><img src='assets/img/{{img}}.jpg'></a>
+					{{#each remarks}}
+					<p>{{{value}}}</p>
+					{{/each}}
 				</li>
 				{{/each}}
 			</ul>
 
+			<h3>{{copy.passionOtherHed}}</h3>
+			<ul class='other'>
+			{{#each copy.passionOther}}
+			<li>
+				<a href='{{url}}' target='_blank'>{{title}}</a></p>
+			</li>
+			{{/each}}
+			</ul>
 			<div class='hed'>
 				<h2>{{copy.hed2}}</h2>
 				<p>{{copy.dek2}}</p>
@@ -64,9 +75,22 @@
 					<p class='credit'>Credit: {{name}}</p>
 					<p class='credit'>Publication: {{org}}</p>
 					<a href='{{url}}' target='_blank'><img src='assets/img/{{img}}.jpg'></a>
+					{{#each remarks}}
+					<p>{{{value}}}</p>
+					{{/each}}
 				</li>
 				{{/each}}
 			</ul>
+
+			<h3>{{copy.payOtherHed}}</h3>
+			<ul class='other'>
+			{{#each copy.payOther}}
+			<li>
+				<a href='{{url}}' target='_blank'>{{title}}</a></p>
+			</li>
+			{{/each}}
+			</ul>
+
 		</section>
 		
 		
